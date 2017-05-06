@@ -1,0 +1,14 @@
+@import 'mixins';
+@import 'variables';
+
+.ratio-sixteen-nine {
+  @include aspect-ratio(1600, 900);
+}
+
+figure {
+  .aspect-ratio {
+    background: $image-placeholder-color no-repeat center center;
+
+    // @todo: Dodaj tekst
+  }
+}

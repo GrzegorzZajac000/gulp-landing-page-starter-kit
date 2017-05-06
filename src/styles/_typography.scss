@@ -1,0 +1,30 @@
+@import 'variables';
+
+body {
+  font-family: Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1;
+  text-rendering: optimizeSpeed;
+
+  .smooth-text {
+    text-shadow: 1px 1px 1px $text-shadow-color;
+  }
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: normal;
+
+  @media all and (max-width: $screen-xs-max) {
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+}

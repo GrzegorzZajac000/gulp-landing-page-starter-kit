@@ -1,0 +1,65 @@
+@import 'variables';
+
+@media print {
+  @page {
+    margin: .5cm;
+  }
+
+  body {
+    font-size: 12pt;
+    line-height: 1.3;
+  }
+
+  h1 {
+    font-size: 24pt;
+  }
+
+  h2 {
+    font-size: 14pt;
+    margin-top: 25px;
+  }
+
+  aside {
+    page-break-before: always;
+
+    h2 {
+      font-size: 18pt;
+    }
+  }
+
+  blockquote,
+  ul {
+    margin: 0;
+  }
+
+  a {
+    color: $print-link-color;
+    text-decoration: none;
+
+    &[href^="http://"]::after,
+    &[href^="https://"]::after,
+    &[href^="ftp://"]::after {
+      content: ' [' attr(href) ']';
+      font-size: 80%;
+    }
+
+    &[href^="#"]::after {
+      display: none;
+    }
+  }
+
+  p a {
+    word-wrap: break-word;
+  }
+
+  header nav,
+  nav,
+  footer {
+    display: none;
+  }
+
+  img {
+    border: 0;
+    max-width: 500px;
+  }
+}

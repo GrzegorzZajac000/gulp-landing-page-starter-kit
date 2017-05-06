@@ -1,0 +1,23 @@
+{
+  "name": "",
+  "short_name": "",
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "",
+  "theme_color": "",
+  "description": "",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "images/favicon/favicon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "images/favicon/homescreen-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

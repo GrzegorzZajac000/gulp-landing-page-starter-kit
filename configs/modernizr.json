@@ -1,0 +1,28 @@
+{
+  "minify": true,
+  "options": [
+    "html5printshiv",
+    "html5shiv",
+    "setClasses"
+  ],
+  "feature-detects": [
+    "test/cookies",
+    "test/eventlistener",
+    "test/forcetouch",
+    "test/geolocation",
+    "test/serviceworker",
+    "test/svg",
+    "test/touchevents",
+    "test/css/flexbox",
+    "test/css/flexboxlegacy",
+    "test/css/fontface",
+    "test/img/webp-alpha",
+    "test/img/webp-animation",
+    "test/img/webp-lossless",
+    "test/img/webp",
+    "test/storage/localstorage",
+    "test/svg/asimg",
+    "test/svg/inline",
+    "test/workers/webworkers"
+  ]
+}
