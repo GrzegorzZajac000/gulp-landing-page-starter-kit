@@ -1,5 +1,3 @@
-**The project is no longer being developed**
-
 Gulp-landing-page-starter-kit is my starter kit which I develop for my own usage. It contains:
  - Image and code minification and compression
  - Auto generating many favicons
@@ -16,8 +14,15 @@ Gulp-landing-page-starter-kit is my starter kit which I develop for my own usage
  - Support for Bower packages and files from vendor folder
  - Support for manifest.json
  - jQuery, Modernizr & Bootstrap v3
+ 
+ **The project is no longer being developed**
 
 ----------
+
+## Installation
+```
+npm install gulp-landing-page-starter-kit
+```
 
 ## Init project for development
 OSX:
@@ -30,15 +35,14 @@ $ sh ubuntu_install.sh
 ```
 
 ## Run project
-
 Development:
-
+```
     $ gulp
-    
+```
 Production:
-
+```
     $ gulp serve-production
-
+```
 ## Available functions
 Gulp functions:
  - `gulp copy-files-to-dist`
