@@ -21,7 +21,8 @@ Gulp-landing-page-starter-kit is my starter kit which I develop for my own usage
 
 ## Installation
 ```
-npm install gulp-landing-page-starter-kit
+git clone https://github.com/GrzegorzZajac000/gulp-landing-page-starter-kit.git
+cd gulp-landing-page-starter-kit
 ```
 
 ## Init project for development
